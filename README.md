@@ -6,9 +6,10 @@ This project demonstrates a simple, interview-ready **Snowflake ELT** pattern:
 - Build **DIM** and **FACT** tables
 - Use **incremental loads** with `MERGE`
 
-## Tech
+## Tech Stack
 - Snowflake SQL
-- (Optional) Python loader stub
+- Snowflake File Stages
+- CSV ingestion using COPY INTO
 
 ## Folder Structure
 - `sql/` – Snowflake SQL scripts
